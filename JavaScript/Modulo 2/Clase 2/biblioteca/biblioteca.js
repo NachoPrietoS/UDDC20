@@ -1,0 +1,4 @@
+function biblioteca() {
+    const libros = [];
+    
+}
