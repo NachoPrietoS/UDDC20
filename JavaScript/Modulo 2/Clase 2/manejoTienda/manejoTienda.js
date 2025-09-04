@@ -2,7 +2,7 @@ function manejoTienda(productosIniciales) {
   const inventario = [...productosIniciales];
 
   return {
-    // Agrega un producto al inventario
+    // Metodo agrega un producto al inventario
     agregarProducto(producto) {
       const existe = inventario.find(p => p.nombre === producto.nombre);
       if (existe) {
